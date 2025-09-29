@@ -1,0 +1,71 @@
+@font-face {
+        font-family: SeeFits;
+        src: url("./media/SeeFitsv2.ttf");
+    }
+    @font-face {
+        font-family: Fairfax;
+        font-weight: normal;
+        src: url("./media/Fairfax.ttf");
+    }
+    @font-face {
+        font-family: Fairfax;
+        font-weight: bold;
+        src: url("./media/fairfax-bold.ttf");
+    }
+    .ffx {
+        font-family: Fairfax;
+        font-size: 48px;
+    }
+    .cf {
+        font-family: SeeFits;
+        font-size: 36px;
+    }
+    .cf.body {
+        font-size: 18px;
+        color: rgb(43, 43, 43);
+    }
+    #g {
+        color: aliceblue;
+    }
+    #pg {
+        color:darkolivegreen;
+    }
+    #pg13 {
+        color:rgb(136, 75, 1);
+    }
+    #r {
+        color:crimson;
+    }
+    .nav-flex {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        background-color: darkgray;
+        padding: 25px;
+    }
+    .search {
+        width: 1000px;
+        height: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 0px;
+        border: 3px solid dimgray;
+    }
+    #go {
+        height: 70px;
+        border: 3px solid maroon;
+        text-align: center;
+        color: #444444;
+    }
+    #go:hover {
+        border: 3px solid green;
+        color: black;
+        background-color: rgb(106, 255, 118);
+    }
+    .search:focus {
+        outline: 0px solid black;
+        border: 3px solid dodgerblue;
+        background-color: wheat;
+    }

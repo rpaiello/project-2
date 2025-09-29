@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scungle Giphy Search Engine</title>
+    <link rel="shortcut icon" href="./media/DonutEvan.png" type="image/x-icon">
+    <link rel="stylesheet" href="giphy.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-flex">
+            <form action="#" method="GET" id="searchBox">
+            <input type="text" class="cf search" placeholder="search the GIF-o-sphere"  id="searchBar" maxlength="75">
+            <button id="go" class="ffx"><b>go</b></button>
+            <br>
+            <hr>
+            <span class="cf body">how spicy?: </span>
+            <input type="radio" id="dc" name="ratingselect" value="" checked>
+            <label for="dc" class="cf body">I don't care </label>
+            <input type="radio" id="g" name="ratingselect" value="g">
+            <label for="g" class="cf body"><span id="g">Mundane</span></label>
+            <input type="radio" id="pg" name="ratingselect" value="pg">
+            <label for="pg" class="cf body"><span id="pg">Tasteful</span></label>
+            <input type="radio" id="pg13" name="ratingselect" value="pg13">
+            <label for="pg13" class="cf body"><span id="pg13">Moody</span></label>
+            <input type="radio" id="r" name="ratingselect" value="r">
+            <label for="r" class="cf body"><span id="r">Crass</span></label>
+        </div>
+        </form>
+    </nav>
+    <section class="gif-display js-gif-display">        
+    </section>
+    <!-- <script src="giphy.js"></script> -->
+</body>
+</html>
