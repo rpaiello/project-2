@@ -17,6 +17,11 @@
   font-size: 48px;
 }
 
+.ffx.body {
+  font-family: Fairfax;
+  font-size: 24px;
+}
+
 .cf {
   font-family: SeeFits;
   font-size: 36px;
@@ -27,8 +32,12 @@
   color: rgb(43, 43, 43);
 }
 
+#dc {
+  color: white;
+}
+
 #g {
-  color: aliceblue;
+  color: wheat;
 }
 
 #pg {
@@ -51,6 +60,8 @@
   top: 0;
   background-color: darkgray;
   padding: 25px;
+  margin-bottom: 10px;
+  border-bottom: 5px solid black;
 }
 
 .search {
@@ -79,4 +90,13 @@
   outline: 0px solid black;
   border: 3px solid dodgerblue;
   background-color: wheat;
+}
+
+.gif-display {
+  display: grid;
+  gap: 30px;
+}
+
+.isblock {
+  display: block;
 }/*# sourceMappingURL=giphy.css.map */
