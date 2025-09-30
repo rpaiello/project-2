@@ -55,7 +55,7 @@ function clearLoadedContent(element) {
 }
 
 async function loadGifs(query) {
-    let response = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=w5p17kHyXSUJ5yL2gftyNNkDEyKBDm4g&q=${encodeURIComponent(query.q)}&limit=24&offset=${query.o ? "25" : "0"}${query.r ? "&rating=" + query.r : ""}&lang=en&bundle=clips_grid_picker`);
+    let response = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=w5p17kHyXSUJ5yL2gftyNNkDEyKBDm4g&q=${encodeURIComponent(query.q.trim())}&limit=24&offset=${query.o ? "25" : "0"}${query.r ? "&rating=" + query.r : ""}&lang=en&bundle=clips_grid_picker`);
     gifs = await response.json();
     console.log(gifs.data);
     clearLoadedContent(gifContainer);
