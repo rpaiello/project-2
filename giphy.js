@@ -30,10 +30,10 @@ function createGifInfo(gif) {
     title.classList.add('cf', 'body', 'gif-info-text');
     title.style.textShadow = `1px 1px ${getRandomBackgroundColor()}`;
     console.log(getRandomBackgroundColor());
-    title.innerHTML = `${gif.title}`;
+    title.innerHTML = `${gif.title ? gif.title : "(no title)"}`;
     let info = document.createElement('p');
     info.classList.add('ffx', 'info');
-    info.innerHTML = `uploaded by: <b>${gif.username ? gif.username : "(No username)"}</b><br>original dimensions: ${gif.images.original.width}x${gif.images.original.height}<br>imported on: ${gif.import_datetime}<br><a href="${gif.bitly_url}">view original on GIPHY</a>`;
+    info.innerHTML = `content rating: ${gif.rating}<br>uploaded by: <b>${gif.username ? gif.username : "(no username)"}</b><br>original dimensions: ${gif.images.original.width}x${gif.images.original.height}<br>imported on: ${gif.import_datetime}<br><a href="${gif.bitly_url}">view original on GIPHY</a>`;
     let output = document.createElement('div');
     output.classList.add('gif-info');
     output.appendChild(title);
