@@ -51,6 +51,19 @@
     #r {
         color:crimson;
     }
+    #links {
+        background-color: darkgray;
+        margin-bottom: -20px;
+        padding-left: 25px;
+        padding-top: 7px;
+        color: white;
+    }
+    #links > a {
+        color: white;
+    }
+    #links > a:hover {
+        color: blue;
+    }
     nav {
         position: sticky;
         top: 0;
