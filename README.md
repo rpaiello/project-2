@@ -15,3 +15,4 @@ Type a search query into the box and hit "GO". The content filter setting change
 
 "*Fairfax*" font by thee mighty [Rebecca G. Bettencourt](https://www.kreativekorp.com/software/fonts/fairfax/)
 
+![wireframes](./media/image.png)
